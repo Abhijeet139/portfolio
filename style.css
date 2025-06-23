@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: #f4f8fb;
+    color: #222;
+  }
+
+  header {
+    background-color: #1e2a38;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    margin-top: 15px;
+  }
+  
+  nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #ddd;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #1abc9c;
+  }
+  
+  section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #1abc9c;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+
+  .skills span {
+    display: inline-block;
+    background: #1abc9c;
+    color: #fff;
+    padding: 8px 15px;
+    margin: 6px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .skills span:hover {
+    background: #16a085;
+  }
+  
+ 
+  .project {
+    background: white;
+    padding: 20px;
+    border-left: 5px solid #1abc9c;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: translateY(-5px);
+  }
+  
+ 
+  #contact a {
+    color: #1e2a38;
+    text-decoration: underline;
+  }
+  
+  #contact a:hover {
+    color: #1abc9c;
+  }
+  
+
+  footer {
+    background-color: #1e2a38;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
